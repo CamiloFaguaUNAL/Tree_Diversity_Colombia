@@ -1,5 +1,4 @@
-# Tree_Diversity_Colombia
-Code for generating maps (rasters at 50m and 100m of spatial resolution) of tree α-diversity for Colombia (South America) from abiotic (environmental) and biotic (structural and functional) predictors.
+# Code for generating maps (rasters at 50m and 100m of spatial resolution) of tree α-diversity for Colombia (South America) from abiotic (environmental) and biotic (structural and functional) predictors.
 
 In this site, we make available the main scripts used to build national maps at 50m and 100m resolution of two tree α-diversity measures for Colombia-South America (Richness and Fisher's alpha) for the year 2020. The associated journal publication can be found here: J Camilo Fagua, Nicolas Castaño, Patrick Jantz, Susana Rodríguez-Buriticá, and Scott J Goetz. Spatial Patterns and mapping of tree α-diversity in Colombia, a Megadiverse Country. Communications Biology XX, Y (202X). https://doi.org/XX/XX. Maps can be accessed in Zenodo (https://zenodo.org/records/XXX). 
 
