@@ -1,6 +1,9 @@
+
 # Code for generating maps (rasters at 50m and 100m of spatial resolution) of tree α-diversity for Colombia (South America) from abiotic (environmental) and biotic (structural and functional) predictors.
 
 In this site, we make available the main scripts used to build national maps at 50m and 100m resolution of two tree α-diversity measures for Colombia-South America (Richness and Fisher's alpha) for the year 2020. The associated journal publication can be found here: J Camilo Fagua, Nicolas Castaño, Patrick Jantz, Susana Rodríguez-Buriticá, and Scott J Goetz. Spatial Patterns and mapping of tree α-diversity in Colombia, a Megadiverse Country. Communications Biology XX, Y (202X). https://doi.org/XX/XX. Maps can be accessed in Zenodo (https://zenodo.org/records/XXX). 
 
 To build these maps, we related with the Random Forest algorithm the in-situ α-diversity measures of tree-Richness and tree-Fisher’s alpha as respond variables with 70 predictors, including (a) five metrics of ecosystem structure, (b) three metrics of ecosystem functioning, (c) nineteen World Climate variables, (d) Forty-two SoilGrids250 variables and (d) altitude. In this Github site, we only presented main scripts to build the tree-Richness and tree-Fisher’s alpha maps; however, since the RF algorithm selects around 66% of the sampling data in one regression, we performed 10 iterations (each iteration is a RF regression) to estimate 10 maps for each richness and Fisher’s alpha measure. Then, final maps per measure were obtained by averaging 10 maps as well as final maps of uncertainty per measure were obtained by calculating the standard deviation maps. Theoretical details of the modelling can be reviewed in the journal publication aforementioned.
 
+
+<img width="386" height="500" alt="b1oe54" src="https://github.com/user-attachments/assets/9a5e97dc-5bbf-4bda-bf20-d6ea54914963" />
